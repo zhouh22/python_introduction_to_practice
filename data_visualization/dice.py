@@ -4,6 +4,7 @@ from plotly import offline
 
 die1 = Die()
 die2 = Die()
+die3 = Die()
 results = []
 for roll_num in range(1000):
     result = die1.roll() + die2.roll()
